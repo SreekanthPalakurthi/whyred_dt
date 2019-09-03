@@ -78,3 +78,12 @@ patchelf --add-needed libprocessgroup.so "$BLOB_ROOT"/vendor/lib/hw/sound_trigge
 patchelf --add-needed libprocessgroup.so "$BLOB_ROOT"/vendor/lib64/hw/sound_trigger.primary.sdm660.so
 
 "$MY_DIR"/setup-makefiles.sh
+./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib64/libgf_ca.so)
+        sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" "${2}"
+        ;;
+    esac
+}

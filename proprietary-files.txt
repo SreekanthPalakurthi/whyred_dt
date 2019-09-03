@@ -909,6 +909,18 @@ vendor/firmware/fpctzappfingerprint.b06
 vendor/firmware/fpctzappfingerprint.b07
 vendor/firmware/fpctzappfingerprint.mdt
 
+# Fingerprint firmware
+vendor/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
+vendor/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
+vendor/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
+vendor/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
+vendor/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
+vendor/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
+vendor/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
+vendor/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07
+vendor/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
+>>>>>>> 67e7d88... whyred: support Oreo FW
+
 # Fingerprint sensor
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/bin/qfp-daemon
