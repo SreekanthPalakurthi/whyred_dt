@@ -393,9 +393,14 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
+=======
+    ims-ext-common_system \
+>>>>>>> 0d2f4141... op3: Create system copy of ims-ext-common and add to classpath
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
     telephony-ext
 
 # TextClassifier
