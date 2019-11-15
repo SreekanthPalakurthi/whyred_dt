@@ -52,3 +52,5 @@ TARGET_GAPPS_ARCH := arm64
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+
+ATOM_BUILD_TYPE := OFFICIAL
