@@ -324,7 +324,7 @@ PRODUCT_PACKAGES += \
 
     android.hardware.power@1.2-service-qti \
     android.hardware.power.stats@1.0-service.mock
-    
+    android.hardware.power@1.2-service-qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
