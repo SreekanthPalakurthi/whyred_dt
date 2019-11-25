@@ -26,9 +26,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Aosp stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/atom/configs/common.mk)
 
-PRODUCT_NAME := lineage_whyred
+
+PRODUCT_NAME := atom_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -45,12 +46,10 @@ BUILD_FINGERPRINT := "google/taimen/taimen:10/QP1A.191005.007.A1/5908163:user/re
 
 
 TARGET_VENDOR := Xiaomi
-CUSTOM_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 ATOM_BUILD_TYPE := OFFICIAL
+
