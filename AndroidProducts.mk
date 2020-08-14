@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_whyred.mk
+    $(LOCAL_DIR)/rr_whyred.mk
+
+COMMON_LUNCH_CHOICES := \
+    rr_whyred-user \
+    rr_whyred-userdebug \
+    rr_whyred-eng
