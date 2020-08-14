@@ -63,8 +63,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
-TARGET_KERNEL_CONFIG := whyred-perf_defconfig
-TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CONFIG := whyred_defconfig
+TARGET_KERNEL_CLANG_COMPILE := false
 TARGET_KERNEL_CLANG_VERSION := r383902c
 
 # Enable real time lockscreen charging current values
