@@ -20,18 +20,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Enable updating of APEXes
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit from custom vendor
-#$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := xtended_whyred
+PRODUCT_NAME := rr_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -51,9 +51,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer=Sreekanth
+    ro.rr.maintainer=SALMANKHANPM
 
 TARGET_VENDOR := Xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
-XTENDED_BUILD_TYPE=OFFICIAL
 SKIP_ABI_CHECKS=true
+
+# Face Unlock
+export TARGET_FACE_UNLOCK_SUPPORT := true
+
+# RR Build Type
+export RR_BUILDTYPE := WALKERZ-EDITION
