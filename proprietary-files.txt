@@ -1016,69 +1016,66 @@ vendor/firmware/a530_gpmu.fw2|706da8d5ee565dcf456341f805ee75a40773f65a
 vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Graphics - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/lib/egl/libQTapGLES.so|975064778f19c1ca8d8c3d4dcd1fda06ef62572a
+# Graphics - from LA.UM.8.2.r1-07500-sdm660.0
+vendor/lib/egl/eglSubDriverAndroid.so|e72aefcf9fa50a01f53558ea7886e2d70b3a57a9
+vendor/lib/egl/libEGL_adreno.so|4ee0c196818b5f460853f0fdea1e7c586b889c88
+vendor/lib/egl/libGLESv1_CM_adreno.so|35180cd115c1d9dcc7ed33a4add281a365d8ec9c
+vendor/lib/egl/libGLESv2_adreno.so|e2ec3b74a1b6affe2f78cd5477dc30285c59c024
+vendor/lib/egl/libq3dtools_adreno.so|5d25d3f8d5f5e86f6d1b83df3a15561ff257756d
+vendor/lib/egl/libq3dtools_esx.so|35ba313e7e00d40dbf0bde82a335a6f257f67a07
+vendor/lib/egl/libQTapGLES.so|62647fc17de97ffeac871a4603134b5cc659a34d
+vendor/lib/libadreno_utils.so|54eedfc81c3228ade708c4ebc8dd0cc25fcd46cf
+vendor/lib/libbccQTI.so|0be327b62b993d09953fc0758fbf19672d58d3ec
+vendor/lib/libC2D2.so|c189d8794a261824b8fdeca4e65d63eb92c0cc0a
+vendor/lib/libc2d30_bltlib.so|3ff9baf59a1e1c56b91a0f509a2dfd36c9e96be2
+vendor/lib/libCB.so|e12a67e70bce0ba44143e424b53fc6d1a490bbf2
+vendor/lib/libgsl.so|aaa872a82464283f742838908c7fd5e0ac9a74f7
+vendor/lib/libllvm-glnext.so|017017256eda565d7c2fa1b8f2b0f5e720ddb321
+vendor/lib/libllvm-qcom.so|c7af1844b19258ad6eb822fa56d0ce5fd3df232b
 vendor/lib/libOpenCL.so|6fe1ec3442653efedf49f64aa9301e0ed91abac0
-vendor/lib64/egl/libQTapGLES.so|05200db46341826aa9650004f898e1156746d753
+vendor/lib/librs_adreno.so|11eaa78d76d9f0e5f34ce5db2b08d5039171e4c9
+vendor/lib/librs_adreno_sha1.so|4a191f9b4a155151a59f3cec098cfc175792976a
+vendor/lib/libRSDriver_adreno.so|5d5c9310505ab6b2a42006118e87fd8489d525d1
+vendor/lib64/egl/eglSubDriverAndroid.so|2f5f0f8dff2e5a52f5852a9dcdb844d348b934bc
+vendor/lib64/egl/libEGL_adreno.so|881af356ca2f30d993fd2a859d1ad93a704a754f
+vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
+vendor/lib64/egl/libGLESv2_adreno.so|287c61e516666690a4c6b62bcf43c021959e5ecc
+vendor/lib64/egl/libq3dtools_adreno.so|07c3b406aa055abfdb3358833d02cb5133964d37
+vendor/lib64/egl/libq3dtools_esx.so|65a22fbfb7f471cd159290c4a7cc755f1a772c6c
+vendor/lib64/egl/libQTapGLES.so|8a82cd42126f848b0fa2470dbcdcbe02585627a3
+vendor/lib64/libadreno_utils.so|7723561e4c15c8cda5639ab36c0fb80cefbad783
+vendor/lib64/libbccQTI.so|42fdea81ea505ccadbf6d24af7ba37cf83760391
+vendor/lib64/libC2D2.so|802802ac7ce0bb8bfc6918449a89ec820c6cfd53
+vendor/lib64/libc2d30_bltlib.so|efda0093baa46c8138ac98f29d417e0b72125e24
+vendor/lib64/libCB.so|388b66175c59113fddcded9875c3ceec4923b302
+vendor/lib64/libgsl.so|38b4efad2d4dc610b55cc3c7d7f0d99e79eba52e
+vendor/lib64/libllvm-glnext.so|3a4a045ea85877e814a9954ced7ec6baa8e04210
+vendor/lib64/libllvm-qcom.so|f405f07c443129f0a82c87b528d690e26afcbe4e
 vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
+vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
+vendor/lib64/librs_adreno_sha1.so|a614e420fe42e90d8a0585b37ec7b47eb96472ad
+vendor/lib64/libRSDriver_adreno.so|b3d5f6b891f6ef0e8f079609d2722f1c29d28c8b
 
-# Graphics (OpenGL ES) - from RP1A.201005.004
-vendor/lib/egl/eglSubDriverAndroid.so|1626fe65bbeb29b8072d4448d30ed3c1acbab8fd
-vendor/lib/egl/libEGL_adreno.so|5f205e8e61b11339681b63a999960ecaf73e68dd
-vendor/lib/egl/libGLESv1_CM_adreno.so|701afdaca670a639da608d6aaaef35cc13539d91
-vendor/lib/egl/libGLESv2_adreno.so|68caf2a2120a8bbae8b4c776868f1e0092d9bf7e
-vendor/lib/egl/libq3dtools_adreno.so|faac3a7bf40ac604187f2d4b18acd83f10bfdf39
-vendor/lib/egl/libq3dtools_esx.so|d734ba67d2a7d8ad1da6c2b70009a8284dac907c
-vendor/lib/libadreno_utils.so|e5e139df49b28c6e4c86ef0834f65902cba417da
-vendor/lib/libbccQTI.so|211ebb7159a41917bfc98fdf816b7c8d0f1fa2e6
-vendor/lib/libC2D2.so|d1d61bb2f808d6674df0ba488fc21fc343d76448
-vendor/lib/libc2d30_bltlib.so|8b322e28528cb8b809583b8993ab721ddf77d262
-vendor/lib/libCB.so|69a2affd294a8ad9ead88fa9a14f8a43a98bf33f
-vendor/lib/libgsl.so|7ca8850220224f7fd3e98d0afa305d465c95a0b8
-vendor/lib/libllvm-glnext.so|ba7c741f5c57a6c3fc5f45b39ec395958e22ae33
-vendor/lib/libllvm-qcom.so|d8dac9efbecb3f9cd18c2fc3fb5eeae8f7ee711b
-vendor/lib/librs_adreno.so|532f2cbf31ba9a703e14cacc3d84792583b645e0
-vendor/lib/librs_adreno_sha1.so|0a4ba1eb8c673a0869c3eb8546824f9bfc85bc2b
-vendor/lib/libRSDriver_adreno.so|f0cd0cd3b662ef26965eaa952dcc858555c2fbeb
-vendor/lib64/egl/eglSubDriverAndroid.so|61c6f382f0e0a81605006c3aefcfea48e9413a48
-vendor/lib64/egl/libEGL_adreno.so|45b70c1a5558310cc496cdd0d40f8786c797324f
-vendor/lib64/egl/libGLESv1_CM_adreno.so|7aefd667c43615f59afa7681a901e00ead3cdbda
-vendor/lib64/egl/libGLESv2_adreno.so|8cdacd6981c0ebaf1731ce08fd0b9bcf76033f17
-vendor/lib64/egl/libq3dtools_adreno.so|4650e44cbc156a14692e8fc46b616e942d481051
-vendor/lib64/egl/libq3dtools_esx.so|5005ba392e567ee7d39945627495a3e72bcb7d72
-vendor/lib64/libadreno_utils.so|47a247a0d597d5206ee64883180e2cd6b0a84140
-vendor/lib64/libbccQTI.so|35c8a31625d47110b984ccdafd7e2f64eebffa23
-vendor/lib64/libC2D2.so|6f654c9bfc9f246b4fa015feb19a787234906f81
-vendor/lib64/libc2d30_bltlib.so|c191be93eac34b27e6515163d64a5f375784cfc2
-vendor/lib64/libCB.so|ee3fdc739fe174c3c41d8438dd53119489ac3be5
-vendor/lib64/libgsl.so|c50a3209b9a3fd34956171c994b6e34105fbb8da
-vendor/lib64/libllvm-glnext.so|78bb8d245478e212412e34c49eb1120e875cd0b9
-vendor/lib64/libllvm-qcom.so|5b9c69743b6563094fb6879135c32e29acaccafa
-vendor/lib64/librs_adreno.so|f76ffe1488c0622698b15884940eb6fd33346a71
-vendor/lib64/librs_adreno_sha1.so|13dc11654b454d5d5ebe5583765811e4fa11ba4a
-vendor/lib64/libRSDriver_adreno.so|d1a6c079de14a665fa73cc217c46977ef84c08aa
-
-# Graphics (HDR) - from LA.UM.8.2.r1-06700-sdm660.0
+# Graphics (HDR) - from LA.UM.8.2.r1-07500-sdm660.0
 vendor/lib/libhdr_tm.so|0104cdb2789ab1fb54b6b93564300f13ffeefc39
 vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
 
-# Graphics (SDM) - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
-vendor/lib/libsdm-diag.so|e020c60d80b13e5f77f31aa0842e4e09e578eb20
-vendor/lib/libsdmextension.so|5bad498cb0c6e2fb23b7a1b2b5deb551933318c4
+# Graphics (SDM) - from LA.UM.8.2.r1-07500-sdm660.0
 vendor/lib/libqseed3.so|44f99b99b831227491e320a3098c8defe8df0781
--vendor/lib/libsdm-disp-vndapis.so|de2a6f9a96d75a5e1da46c9e254a9acb7e91224e
+vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
+vendor/lib/libsdm-diag.so|f560622d31fa58c6b3ee2843d7485ddfd246d064
+vendor/lib/libsdmextension.so|ebc3f1aed53d208ccc665a173198adb9e0ed6a79
 vendor/lib/libtinyxml2_1.so|89e1b1af10209dbb8d341cd314750cc64fc33852
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
-vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
-vendor/lib64/libsdm-diag.so|3a04410ad9dafd5c348afab5db6445390dae00cb
--vendor/lib64/libsdm-disp-vndapis.so|5f2dfe8f37dd33f3f87ba9743bd228b0a90e13dd
-vendor/lib64/libsdmextension.so|1578d885acc4cc0a1dc941363c61cb95052c4d32
+vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
+vendor/lib64/libsdm-diag.so|35206a3a9b7ed56317511bb72f89fd380d848ca6
+vendor/lib64/libsdm-disp-vndapis.so|a4e271a373b83b1e04afdbff63ab37154aead5f9
+vendor/lib64/libsdmextension.so|913503f002aa2afbeca90d429bac4bff4a2266e0
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
-# Graphics (Vulkan) - from RP1A.201005.004
-vendor/lib/hw/vulkan.adreno.so:vendor/lib/hw/vulkan.sdm660.so|5ec0916dcb1371845a30e00f823be25c29ae102c
-vendor/lib64/hw/vulkan.adreno.so:vendor/lib64/hw/vulkan.sdm660.so|2cd751f202e3e4c2566f0950dd41bf78fa0e8eef
+# Graphics (Vulkan) - from LA.UM.8.2.r1-07500-sdm660.0
+vendor/lib/hw/vulkan.sdm660.so:vendor/lib/hw/vulkan.msm8998.so|704d421e098d832de8049315df8951202a8bcf26
+vendor/lib64/hw/vulkan.sdm660.so:vendor/lib64/hw/vulkan.msm8998.so|5616c7938c8d80fd1f1ca4c80ea20b1497246c3f
 
 # Keystore - from jasmine_sprout 9 PKQ1.180904.001 V10.0.17.0.PDIMIXM release-keys
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
@@ -1436,7 +1433,7 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 # Wi-Fi - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/cnss-daemon|d7118e205124e456e6d5ff01efeb8ad931001eb3
 
-# Wi-Fi Display - from LA.UM.9.6.2.r1-03300-89xx.0
+# Wi-Fi Display - from LA.UM.9.6.2.r1-02500-89xx.0
 -framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
 -priv-app/WfdService/WfdService.apk|b99c24571581465e637c7f6a6efc7c36042e56ea
 bin/wfdservice|96a583c0efeaf90352b26c20c904ee156238b90f
@@ -1451,9 +1448,8 @@ lib/libwfdclient.so|f8bc675421610ed19dcd9e535e9c7a384a89d37d
 lib/libwfdcodecv4l2.so|fc0dc6c233ed5e98e47bb0168ba5722cb3a6100a
 lib/libwfdcommonutils.so|b9926c36f1389a71cc4dd76a0b2945557f3333ad
 lib/libwfdconfigutils.so|297d166db9c148261c96cf1e3a5ff7f86576cac4
-lib/libwfddisplayconfig.so|f06b58228ea5fc570ad0403be5db4a4f8e11f108
 lib/libwfdmminterface.so|668c1fa38a6d94ae36d74cdf8e3e538de41425fc
-lib/libwfdmmsink.so|787a29412044ea1b215a59d0a00e4c7e3a71ba91
+lib/libwfdmmsink.so|d5a5ef1490c8a7a84b6ea034afd02efef0950336
 lib/libwfdmmsrc.so|cf8f8a63d2474a339d56471d745c572c14c0cb49
 lib/libwfdnative.so|ba926c39a6b5c6a60c1d4f65e9629eb719bafee0
 lib/libwfdrtsp.so|ff172aaf2df1d5ea4da247bc1af16d68304c7389
@@ -1478,10 +1474,11 @@ vendor/bin/wifidisplayhalservice|9a5bbc21cbcaa50263d2cca5f220d8f435933ac6
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|04334ac3883c64b6201cef433ff9c3045585890a
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|9e1000674de86c91933598297625a71e45828dc8
+vendor/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
 vendor/lib/libwfdcommonutils_proprietary.so|1d0b71c302a88ee30b33660e005fccdbabae904a
-vendor/lib/libwfddisplayconfig_proprietary.so|a3a23a87c0a531f887302bf9edeab90f7a68fcd8
 vendor/lib/libwfdhaldsmanager.so|da82fb77513d03875e917964a0dfcb8e0a153908
 vendor/lib/libwfdhdcpcp.so|0b8a69106f573a013479b231064c94b539c15e14
 vendor/lib/libwfdmmservice.so|ccdf23feee6f25493297cab321003a2b11177027
 vendor/lib/libwfdmodulehdcpsession.so|6e87f31c53f5c8cfcbbf27d5f5df1154ff6f6e96
+vendor/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
 vendor/lib64/libwfdhdcpcp.so|1a3384745b7ec87cda5ff58a43872b1374f6fc9b
